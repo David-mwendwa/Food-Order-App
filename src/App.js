@@ -1,10 +1,11 @@
 import { Fragment } from 'react';
+import Header from './components/Layout/Header';
 
 function App() {
   return (
-    <div>
-      Food Order
-    </div>
+    <Fragment>
+      <Header />
+    </Fragment>
   );
 }
 
